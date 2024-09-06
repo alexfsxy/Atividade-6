@@ -1,0 +1,29 @@
+.navigate {
+    background: transparent;
+    border: none;
+    border-radius: 2%;
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    height: 200px;
+    text-align: center;
+    width: 60px;
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.navigate:hover {
+    opacity: 1;
+}
+
+.carroussel:hover .navigate {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+    .navigate {
+        margin: 0;
+        justify-content: center;
+    }    
+} 
