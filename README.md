@@ -1,3 +1,5 @@
+CLONE DA NETFLIX
+
 Recriar a interface do clone da Netflix como forma de aprendizagem e treinar as skills perante o uso de Javascript, React e CSS.
 
 Ferramentas de uso que deve ser instalado.
