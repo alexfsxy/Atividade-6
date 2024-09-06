@@ -1,18 +1,8 @@
-CLONE DA NETFLIX
+# React + Vite
 
-Recriar a interface do clone da Netflix como forma de aprendizagem e treinar as skills perante o uso de Javascript, React e CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Ferramentas de uso que deve ser instalado.
+Currently, two official plugins are available:
 
--NPM
-
--Node.js
-
--Git
-
-Etapas
--Após instalado entra no seu terminal ou powershell, digita o comando git clone https://github.com/alexfsxy/Atividade-6
-
--Depois entra na pasta do repositório pelo comando cd atividade-6 e digite o comando npm i, ou digite npm install para instalar as dependências
-
--E por fim com a conclusão da instalação, digite o comando npm run dev e copie link http://localhost:5173 onde vai abrir o site determinado da atividade.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
