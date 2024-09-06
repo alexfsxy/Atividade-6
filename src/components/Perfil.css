@@ -1,0 +1,81 @@
+#perfil {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+div>h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+#usuario {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.usuario {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.usuarioImagem {
+    box-sizing: border-box;
+    max-width: 200px;
+    max-height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.usuarioImagem:hover {
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.usuario:hover {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#gerenciarPerfil {
+    margin-top: 3.5rem;
+    width: 15rem;
+    background-color: #141414;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#gerenciarPerfil:hover {
+    color: white;
+    border-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    div>h1 {
+        text-align: center;
+    }
+
+    #perfil {
+        margin-top: 2rem;
+    }
+
+    #gerenciarPerfil {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}
