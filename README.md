@@ -1,12 +1,8 @@
-# Atividade-6
-Recriar a interface do Netflix como forma de aprendizagem e treinar as skills perante o uso de Javascript, React e CSS.
+# React + Vite
 
-ETAPA
-- Obter o NPM do react instalado
-- Ter o Node.js instalado para essa tarefa
-- E por fim ter o Git instalado
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-PROCEDIMENTO
-- Inicialmente em seu terminal digite o comando git clone https://github.com/alexfsxy/Atividade-6
-- Depois entra na pasta do repositório pelo comando cd Atividade-6 e digita o comando npm i, também pode digitar npm install para que seja instalado as dependências
-- E por fim depois da instalação, digita o comando npm run dev e copie o link que está descrito http://localhost:5173 para poder executar na sua máquina, grato!
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
